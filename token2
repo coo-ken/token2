@@ -83,16 +83,22 @@ def jalan(z):
 		
 #########LOGO#########
 logo = """ 
- \033[1;37;41m       AUTHOR : RIZKY                \033[0m
- \033[1;37;43m                                     \033[0m
- \033[1;37;42mRecode : IMGAMING                 \033[0m
- \033[1;37;44mYOUTUBE:IMGAMING   \033[0m
- \033[1;37;46mNO WA:087828725073            \033[0m
- \033[1;37;45mFrom :INDONESIA                   \033[0m
+  ASSALAMUALAIKUM
+    
+    SEMOGA KALIAN SEHAT 
+ 
+      JANGAN LUPA SUBSCRIBE
+   
+    CHANEL IMGAMING (PP IG)
+ 
+  SAYA MEMBAGIKAN SCRIPT
+ 
+    LOGIN TOKEN DAN COOKIES
+     
+           +RECODE
 
-\033[1;37m╔═════════════════════════════════════╗ 
- \033[1;37;44mSEMOGA KALIAN SEHAT SEHAT SAJA   \033[0m
-\033[1;37m╚═════════════════════════════════════╝"""
+        WA:087828725073
+=====SHOLAT DULU BIAR BISA====="""
 #
 
 
@@ -111,7 +117,7 @@ def masuk():
 	os.system('clear')
 	print logo
 	print 50* "\033[1;94m─"
-	print "\033[1;97m{\033[1;92m[1]\033[1;97m} Login Via Token Facebook"
+	print "\033[1;97m{\033[1;92m[1]\033[1;97m} Login Via Token"
 	print "\033[1;97m{\033[1;91m[0]\033[1;97m} Keluar"
 	print 50* "\033[1;94m─"
 	pilih_masuk()
@@ -122,17 +128,11 @@ def pilih_masuk():
 		print"\033[1;97m[\033[1;91m!\033[1;97m] isi yang bener bro"
 		pilih_masuk()
 	elif msuk =="1" or msuk =="01":
-		tokenz()
-	elif msuk =="2"or msuk =="02":
-		ambil_token()
-	elif msuk =="3"or msuk =="03":
-		ambil_link()
-	elif msuk =="4"or msuk =="04":
-		cookie()
+                tokenz()
 	elif msuk =="0" or msuk =="00":
 		keluar()
 	else:
-		print"\033[1;97m[\033[1;91m!\033[1;97m] isi yant bener bro"
+		print"\033[1;97m[\033[1;91m!\033[1;97m] isi yang bener bro"
 		pilih_masuk()
 		
 #####LOGIN_COOKIE#####
@@ -263,7 +263,6 @@ def menu():
 	print 1* "\033[1;94m⸙╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺ ⸙"
 	print "\033[1;97m{"+warni+"[1]\033[1;97m}"+warna+" Crack ID Dari Teman/Publik"
 	print "\033[1;97m{"+warni+"[2]\033[1;97m}"+warna+" Crack ID like postingan teman/publik"
-	print "\033[1;97m{"+warni+"[3]\033[1;97m}"+warna+" Crack ID Dari Total Followers"
 	print "\033[1;97m{\033[1;91m[4]\033[1;97m}"+warna+" Keluar"
 	print 1* "\033[1;94m⸙╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺ ⸙"
 	pilih()
@@ -277,9 +276,7 @@ def pilih():
 	elif unikers =="1" or unikers =="01":
 		crack_teman()
 	elif unikers =="2" or unikers =="02":
-		crack_likes()
-	elif unikers =="3" or unikers =="03":
-		crack_follow()
+		crack_likes() 
 	elif unikers =="0" or unikers =="00":
 		os.system('clear')
 		jalan('Menghapus token')
